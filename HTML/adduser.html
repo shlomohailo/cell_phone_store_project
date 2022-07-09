@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/CSS/adduser.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light nav-back">
+            <a class="navbar-brand logo" href="../index.html">
+                <i class="icon-mobile-phone"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./tabs.html">Devices</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./users.html">Users</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./adduser.html">Add New User</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1>ADD A NEW USERS</h1>
+
+    <div id="divmain">
+
+        <label>
+            <input id="inputfirstlname" type="text" placeholder="enter first name...">
+        </label>
+        <label>
+            <input id="inputlastname" type="text" placeholder="enter last name...">
+        </label>
+        <label>
+            <input id="inputage" type="text" placeholder="enter age...">
+        </label>
+        <label>
+            <input id="inputemail" type="text" placeholder="enter email...">
+        </label>
+        <label>
+            <input id="inputindex" type="text" placeholder="enter index... ">
+        </label>
+        <label>
+            <input id="inputphone" type="text" placeholder="enter phone...">
+        </label>
+        <label>
+            <input id="inputpicture" type="text" placeholder="enter picture...">
+        </label>
+        <button onclick="addUser()">ADD</button>
+
+    </div>
+
+    <footer>
+        <div class="siteFooterBar  mb-3   ">
+            <div class="content">
+                <a href="https://www.linkedin.com/in/shlomo-hailo-5868b1236/">
+                    <i class="icon-linkedin"></i>
+                </a>
+                <a href="https://github.com/shlomohailo">
+                    <i class="icon-github"></i>
+                </a>
+                <div class="foot">2022 © All rights .</div>
+
+            </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/adduser.js"></script>
+</body>
+
+</html>

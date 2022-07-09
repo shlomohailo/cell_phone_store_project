@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    font-size: 70px;
+    position: sticky;
+
+}
+
+
+.card {
+    padding-bottom: 10px;
+    flex-grow: 1;
+    margin-top: 10px;
+    width: 333px;
+    padding: 10px;
+
+
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bttn {
+    text-align: center;
+}
+

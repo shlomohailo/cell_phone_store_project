@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section div {
+  
+    color: white;
+    box-shadow: 0px 0px 25px rgb(207, 207, 207);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+section div h1 {
+    padding-bottom: 40px;
+margin: auto auto;
+}
+
+#imgcampony {
+    width: 50vw;
+    height: 300px;
+    display: flex;
+    margin: auto auto;
+    padding: 20px;
+}

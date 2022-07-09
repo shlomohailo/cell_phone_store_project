@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section .content {
+    margin-top: 60px;
+    border-radius: 40px;
+
+    color: white;
+    width: 80vw;
+    
+}
+
+.location {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.location p {
+    font: 35px Georgia, 'Times New Roman', Times, serif;
+    padding-top: 40px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+#images {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 10px;
+
+    flex-wrap: wrap;
+}
+h1
+{
+    font-size: 50px;
+    text-align: center;
+    color: white;margin-top: 20px;
+}
+img{
+    margin-top: 15px;
+}
